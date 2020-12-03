@@ -3,7 +3,7 @@ This section includes the success responses of various API calls in BINANCE exch
 
 ## Transfer
 Success response of transfer API in Binance exchange:
-```
+``` yaml
 {'exchange': 'BINANCE', 'from_balance': {'account_type': 'spot', 'balance_type': 'free', 'item_list': [{'USDT': 48.07561026}], 'vqr_account': 'lalm'}, 'item_list': [{'asset': 'usdt', 'exchange': 'BINANCE', 'from_account_type': 'spot', 'from_vqr_account': 'lalm', 'quantity': 0.01, 'reason': 'accepted', 'strategy': '1225692695', 'symbol': 'ethusdt', 'text': '', 'to_account_type': 'cross_margin', 'to_vqr_account': 'lal1', 'vqr_account': 'lalm'}], 'mb_sequence_number': '1605790818223960450', 'mb_timestamp': '1606239740570753442', 'record_action': 'snapshot', 'record_type': 'transfer', 'to_balance': {'account_type': 'cross_margin', 'balance_type': 'free', 'item_list': [{'USDT': 0.01}], 'vqr_account': 'lal1'}}}
 ```
 
