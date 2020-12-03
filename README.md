@@ -3,7 +3,7 @@ This section includes the success responses of various API calls in BINANCE exch
 
 ## Transfer
 Success response of transfer API in Binance exchange:
-``` yaml
+``` json
 {'exchange': 'BINANCE', 'from_balance': {'account_type': 'spot', 'balance_type': 'free', 'item_list': [{'USDT': 48.07561026}], 'vqr_account': 'lalm'}, 'item_list': [{'asset': 'usdt', 'exchange': 'BINANCE', 'from_account_type': 'spot', 'from_vqr_account': 'lalm', 'quantity': 0.01, 'reason': 'accepted', 'strategy': '1225692695', 'symbol': 'ethusdt', 'text': '', 'to_account_type': 'cross_margin', 'to_vqr_account': 'lal1', 'vqr_account': 'lalm'}], 'mb_sequence_number': '1605790818223960450', 'mb_timestamp': '1606239740570753442', 'record_action': 'snapshot', 'record_type': 'transfer', 'to_balance': {'account_type': 'cross_margin', 'balance_type': 'free', 'item_list': [{'USDT': 0.01}], 'vqr_account': 'lal1'}}}
 ```
 
@@ -12,7 +12,7 @@ There are two types of separate responses that fall into this category, namely, 
 The success responses of 'buy' and 'sell' sides of submit_order API in Binance exchange:
 ### Submit Order
 1. side=buy
-```
+``` json
 {'account_type': 'spot', 'client_order_id': 5264310041577337662, 'duration': 'gtc', 'exchange': 'BINANCE', 'exchange_order_id': '2102300129', 'executed_quantity': 0, 'limit_price': 150.8, 'market': 'spot', 'open_quantity': 0.07102272727272727, 'order_state': 'active', 'quantity': 0.07102272727272727, 'reason': 'accepted', 'side': 'buy', 'strategy': '1225692695', 'symbol': 'ethusdt', 'text': '', 'type': 'limit', 'vqr_account': 'lalm'} 
 ```
 2. side=sell
